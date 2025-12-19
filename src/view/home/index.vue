@@ -21,7 +21,7 @@
             <ul id="menu_list">
               <li><a href="" class="current">首页</a></li>
               <li>
-                <a href="#/channel">服务支持</a>
+                <a href="#/channel">业务与服务</a>
               </li>
               <li>
                 <a href="#/about">走进五粮液</a
