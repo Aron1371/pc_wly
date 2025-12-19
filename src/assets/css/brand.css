@@ -1,0 +1,21 @@
+.brand-img-list-title-img{
+	height: 218px;
+	width: 368px;
+}
+
+.brand-img-list-title{
+	color : #717171;
+	font-size : 12px;
+	font-weight : bold;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.brand-img-list-content{
+    font-size: 12px;
+    height: 60px;
+    line-height: 20px;
+    overflow: hidden;
+}

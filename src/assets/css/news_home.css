@@ -1,0 +1,35 @@
+.news-search-key-word{
+	display: inline;
+    width: 570px;
+}
+
+.news-home-search{
+	padding: 20px 0;
+}
+
+.news-search-category{
+	width : 200px;
+	display: inline;
+}
+
+.news-home-top-list-item-title {
+    font-size: 15px;
+    color : #414141;
+    font-weight: bold;
+    display : inline;
+    margin-left : 10px;
+}
+
+.news-home-top-list-item-content img {
+    height: 150px;
+    width : 100%;
+}
+
+.news-home-top-list-item {
+    width: 327px;
+}
+
+.news-home-top-list-item-content td{
+    font-family: SimSun;
+    font-size: 12px;
+}

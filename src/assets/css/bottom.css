@@ -1,0 +1,89 @@
+.body-border-top{ border-top:#eaeaea solid 1px; }
+.bottomBg{ width:100%; height:auto; background:rgba(250,250, 250, .5); padding:3vw 0 0;}
+.bottomBg .boxSize{ }
+.bottomPart1{ width:78%; float:left;}
+.bottomPart2{ width:22%; float:left;}
+.bottomPart1 ul.menu{}
+.bottomPart1 ul.menu li{ width:25%; float:left; font-weight:700; font-size:1vw;line-height:40px; color:#333;  text-align:left;}
+.bottomPart1 ul.menu li ul{width:100%;}
+.bottomPart1 ul.menu li ul li{width:100%; line-height:30px; margin:0; font-weight:500;font-size:.8vw;}
+.bottomPart1 ul.menu li ul li a{color:#686868;}
+.bottomPart1 ul.menu li ul li a:hover{color:#df0716;}
+
+.bottomPart1 .linkCon{ padding:30px 0;}
+.bottomPart1 .linkCon p{font-size:.9vw;line-height:40px; color:#333; text-align:left;  }
+.bottomPart1 .linkCon li{width:25%;font-size:.8vw; line-height:200%; float:left; padding:0 50px 0 0;text-align:left; }
+.bottomPart1 .linkCon li a{color:#686868;}
+.bottomPart1 .linkCon li a:hover{color:#df0716;}
+
+.copy{ padding:20px 0;border-top:#eaeaea solid 1px;color:#686868;}
+.copy span{ padding:0 3px; color:#686868; display:inline-block;}
+.copy img{vertical-align:middle}
+
+.bottomPart2 .codeCon{ display:inline-block; float:right;}
+
+.bottomPart2 .codeCon li{ padding:10px 0;}
+.bottomPart2 .codeCon li .Img{ width:42px; height:auto; background:#dcdcdc;vertical-align:middle;border-radius:5px; float:left;}
+.bottomPart2 .codeCon li .Img img{ width:100%; height:auto;}
+.bottomPart2 .codeCon li span{ text-align:left; line-height:42px; padding:0 0 0 15px;}
+.bottomPart2 .codeCon li a{color:#686868; display:block;}
+.bottomPart2 .codeCon li a:hover{color:#df0716;display:block;}
+.bottomPart2 .codeCon li a .Img.c01{  background:#dcdcdc; transition: all .3s;}
+.bottomPart2 .codeCon li a .Img.c02{  background:#dcdcdc; transition: all .3s;}
+.bottomPart2 .codeCon li a:hover .Img.c01{  background:#8dca1d; transition: all .3s;}
+.bottomPart2 .codeCon li a:hover .Img.c02{  background:#de3031; transition: all .3s;}
+
+.bottomPart2 .codeCon .tooltip { width:120px; 
+           padding:10px;
+           border-radius:3px;
+           position:absolute;
+           box-shadow:1px 1px 10px 0 #dfdfdf;
+           margin: -350px 0 0 -42px;
+           background:#fff;opacity:0;
+           -webkit-transition:margin .5s ease-in-out;
+          -moz-transition:margin .5s ease-in-out; display:none;}
+
+.bottomPart2 .codeCon .tooltip .ImgCode{width:100%; height:auto;}
+.bottomPart2 .codeCon .tooltip .ImgCode img{width:100%; height:auto;}
+.bottomPart2 .codeCon .item:hover .tooltip {opacity:1;
+           margin:-178px 0 0 -42px;
+           -webkit-transition: margin .15s ease-in-out;
+           -moz-transition: margin .15s ease-in-out;display:block;}
+
+.bottomPart2 .codeCon .arrow {
+  position:absolute;
+    margin:10px 0 0 42px;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #fff;
+}
+@media (max-width: 768px) { 
+.body-border-top{ border-top:none; margin-top:20px}
+.bottomBg .mainContainer{width:100%; text-align:center; margin:0 auto; padding:0 0;  }
+
+.bottomPart1{ width:100%; float:none; display:none;}
+.bottomPart2{ width:100%; float:none;display:none;}
+.bottomPart1 ul.menu{}
+.bottomPart1 ul.menu li{ width:50%; float:left; font-size:14px;line-height:30px; color:#333;  text-align:left; margin:10px 0;}
+
+.bottomPart1 .linkCon p{font-size:14px;line-height:30px; color:#333; text-align:left; overflow: hidden;white-space: nowrap;text-overflow: ellipsis; }
+.bottomPart1 .linkCon li{width:50%;font-size:14px; line-height:30px; float:left; padding:0 0 0 0;text-align:left;  }
+
+.bottomPart2 .codeCon{width:100%; display:inline-block; float:none;}
+.copy{ padding:20px 0;border-top:#eaeaea solid 1px;color:#686868;}
+.copy span{ padding:0 3px; color:#686868; display:inline-block;}
+.copy img{vertical-align:middle}
+.bottomBg .body-border-top{ border:none;}
+.bottomPart2 .codeCon li{ padding:10px 0; float:left; width:50%;}
+.bottomPart2 .codeCon li .Img{ width:42px; height:auto; background:#dcdcdc;vertical-align:middle;border-radius:5px; float:left; padding:0;}
+.bottomPart2 .codeCon li .Img img{ width:100%; height:auto;padding:0;}
+.bottomPart2 .codeCon li span{ text-align:left; line-height:42px; padding:0 0 0 15px;float:left;  }
+.bottomPart2 .codeCon li a{color:#686868; display:block;}
+.bottomPart2 .codeCon li a:hover{color:#df0716;display:block;}
+.bottomPart2 .codeCon li a .Img.c01{  background:#dcdcdc; transition: all .3s;}
+.bottomPart2 .codeCon li a .Img.c02{  background:#dcdcdc; transition: all .3s;}
+.bottomPart2 .codeCon li a:hover .Img.c01{  background:#8dca1d; transition: all .3s;}
+.bottomPart2 .codeCon li a:hover .Img.c02{  background:#de3031; transition: all .3s;}
+}

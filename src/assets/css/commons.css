@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	border: 0;
+	font-size: 100%;
+}
+
+body {
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-font-smoothing: antialiased;
+	font: 12px/1.5 Microsoft YaHei UI, Microsoft YaHei, tahoma, arial, Hiragino Sans GB, SimSun, Segoe UI, Tahoma, Helvetica, Sans-Serif, sans-serif, \5b8b\4f53;
+	color: #181818;
+	font-size: 15px;
+	line-height: 1;
+	word-break: break-all;
+	background: #FFF;
+}
+
+body.on {}
+
+/* html5*/
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+main,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+address {
+	font-style: normal;
+	display: inline;
+}
+
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	content: '.';
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+.clearfix {
+	zoom: 1;
+	display: block;
+}

@@ -1,0 +1,41 @@
+.footer-menu{
+	margin: 0 auto;
+	/*background-color : #F6F6F6;*/
+	
+    width: 1002px;
+    height: 270px;
+	padding: 10px 0;
+}
+
+.footer-bottom-content{
+	background-color: #DF3032;
+    height: 40px;
+    padding: 10px 0;
+}
+
+.footer-divide-span{
+	color: #FFF;
+	font-size: 14px;
+}
+
+.footer-a{
+	color: #FFF;
+	font-size: 14px;
+}
+
+.footer-menu-item{
+	margin : 15px 56px 0 0;
+	zoom : 1;
+}
+
+.footer-menu-first-menu-item{
+    color: #717171 !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*footer font color*/
+.footer-link-menu{
+	color: #717171;
+    font-size: 12px;
+    font-family : SimSun;
+}

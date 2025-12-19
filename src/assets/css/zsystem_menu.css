@@ -1,0 +1,291 @@
+.top-height {
+	height: 70px;
+}
+
+#top {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: #df0716;
+	height: 72px;
+	margin: 0;
+	padding: 0;
+	z-index: 1000;
+}
+
+#top .container {
+	width: 100%;
+	max-width: 1450px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+#top .logo {
+	float: left;
+	padding: 12px 0 0 0;
+}
+
+#top .logo img {
+	width: 150px;
+	height: auto;
+}
+
+.cd-popup {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	z-index: 3;
+}
+
+/*大背景*/
+.cd-popup.is-visible {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+	transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+/*----s - 菜单------*/
+nav {
+	font-family: "微软雅黑";
+	text-align: right;
+	text-transform: uppercase;
+	float: right;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+nav ul li {
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	width: 120px;
+	text-align: center;
+	float: left;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 15px;
+	display: block;
+}
+
+
+
+nav ul li a:hover,
+nav ul li a.current,
+nav ul li a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu_list {
+	position: relative;
+}
+
+/*----e - 菜单------*/
+#menu_list .search,
+#menu_list .list,
+#menu_list .close {
+	height: 60px;
+	margin-top: 5px;
+}
+
+#menu_list .search {
+	margin-left: 200px;
+}
+
+#menu_list .search a,
+#menu_list .list a,
+#menu_list .close a {
+	width: 16px;
+	height: 16px;
+	transition: 0.6s;
+	-webkit-transition: 0.6s;
+	-o-transition: 0.6s;
+	-ms-transition: 0.6s;
+	-moz-transition: 0.6s;
+}
+
+/* 搜素框 */
+.search_main {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	width: 85%;
+	height: 72px;
+	background: #df0716;
+	display: none;
+	padding: 9px 0;
+	margin: 0;
+}
+
+.search_main .con {
+	width: 50%;
+	float: right;
+	margin-right: 30px;
+	position: relative;
+}
+
+.search_main .search_btn,
+.search_main .close_btn {
+	width: 50px;
+	height: 50px;
+	transition: 0.6s;
+	-webkit-transition: 0.6s;
+	-o-transition: 0.6s;
+	-ms-transition: 0.6s;
+	-moz-transition: 0.6s;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.search_main .search_btn {
+	float: left;
+	background-size: 16px 16px;
+
+}
+
+.search_main .search_btn:hover {
+	background-size: 16px 16px;
+}
+
+#top input.search_text {
+	height: 35px;
+	float: left;
+	margin-top: 8px;
+	width: 80%;
+	border: none;
+	background: #ce0211;
+	transition: all .3s;
+	color: #fe0012;
+	outline: none;
+	padding: 0 10px;
+}
+
+#top input.search_text:focus {
+	background: #f1f1f1;
+	transition: all .3s;
+	color: #333;
+}
+
+.search_main .close_btn {
+	position: absolute;
+	top: 1px;
+	right: 0;
+}
+
+.search_main .close_btn:hover {}
+
+@media (min-width: 1080px) {
+	.move-bg {
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 120px;
+		height: 30px;
+		background: #fe2434;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		z-index: 0;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1080px) {
+	nav ul {
+		margin-left: 0;
+	}
+
+	nav ul li {
+		line-height: 30px;
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		position: relative;
+		z-index: 1;
+		width: 90px;
+		text-align: center;
+		float: left;
+	}
+
+	nav ul li a {
+		background: #none;
+		padding: 0 15px;
+	}
+
+	nav ul li a:hover {
+		background: #fe2434;
+		padding: 0 15px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+
+	}
+
+	.move-bg {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+
+	nav ul {
+		margin-left: 0;
+	}
+
+	nav ul li {
+		line-height: 30px;
+		margin: 0;
+		color: #fff;
+		position: relative;
+		z-index: 1;
+		width: auto;
+		text-align: center;
+		float: left;
+	}
+
+	nav ul li a {
+		background: #none;
+		padding: 0 15px;
+	}
+
+	nav ul li a:hover {
+		background: #fe2434;
+		padding: 0 15px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+
+	}
+
+	.move-bg {
+		display: none;
+	}
+}
